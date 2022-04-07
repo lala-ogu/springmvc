@@ -4,9 +4,11 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 import practice.springmvc.domain.Member;
 import practice.springmvc.repository.MemberRepository;
 
+@Transactional
 //@Service    // Controller어노테이션 처럼 bean으로 등록합니다.
 public class MemberService {
     
