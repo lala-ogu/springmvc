@@ -4,11 +4,10 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 import practice.springmvc.domain.Member;
 import practice.springmvc.repository.MemberRepository;
 
-@Service    // Controller어노테이션 처럼 bean으로 등록합니다.
+//@Service    // Controller어노테이션 처럼 bean으로 등록합니다.
 public class MemberService {
     
     private final MemberRepository memberRepository;

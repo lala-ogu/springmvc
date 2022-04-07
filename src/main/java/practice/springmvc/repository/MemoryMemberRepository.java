@@ -9,7 +9,6 @@ import java.util.Optional;
 import org.springframework.stereotype.Repository;
 import practice.springmvc.domain.Member;
 
-@Repository
 public class MemoryMemberRepository implements MemberRepository {
 
     private static Map<Long, Member> store = new HashMap<>();
