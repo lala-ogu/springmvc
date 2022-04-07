@@ -2,6 +2,8 @@ package practice.springmvc.repository;
 
 import java.util.List;
 import java.util.Optional;
+
+import org.springframework.stereotype.Repository;
 import practice.springmvc.domain.Member;
 
 public interface MemberRepository {
